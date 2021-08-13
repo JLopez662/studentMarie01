@@ -15,17 +15,13 @@ int main() {
 
     Student sociales("Jose");
 
-//    cout<<computos.getName()<<computos.getYear()<<endl;
-//    cout<<sociales.getName()<<sociales.getYear()<<endl;
 
-    //computos.setNotas();
     computos[0].setGrades();
     double promedio=computos[0].getAve();
 
     cout<<promedio<<endl;
 
     const double *ptr=nullptr;
-    //ptr=computos.getNotas();
 
     ptr=computos[0].getGrades();
     for (int i=0;i<5;i++){
