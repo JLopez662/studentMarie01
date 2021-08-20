@@ -1,4 +1,7 @@
-
+/*
+Jorge Lopez Gonzalez
+801-09-3312 
+*/
 
 #include "Student.h"
 using namespace std;

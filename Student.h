@@ -1,3 +1,8 @@
+/*
+Jorge Lopez Gonzalez
+801-09-3312 
+*/
+
 //  main.cpp
 //  clasesExp
 //
