@@ -1,7 +1,9 @@
 /*
 Jorge Lopez Gonzalez
-801-09-3312 
+801-09-3312
 */
+
+//2021
 
 //  main.cpp
 //  clasesExp
@@ -23,7 +25,11 @@ private:
     int year;
     double notas[5];
     double *grades;
+    double temp;
+
+
 public:
+
     Student();
     Student (string);
     void setName(string);
@@ -34,7 +40,12 @@ public:
     int getYear();
     const double *getNotas();
     const double *getGrades();
-    double getAve();
+    double getAve() const;
+
+    char letterGrade() const;
+    double getMaxGrade() const;
+    double getMaxOverallGrade(Student A[], int size) const;
+
     ~Student(){ delete [] grades;}
 };
 
